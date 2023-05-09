@@ -1,0 +1,17 @@
+{
+    "name": "70-JSON-inWasm",
+    "description": "Logic of the JSON parser to be compiled to Wasm",
+    "dependencies": {
+        "ajv": "8.11.0"
+    },
+    "type": "module",
+    "scripts": {
+        "build": "npx rollup -c"
+    },
+    "devDependencies": {
+        "@rollup/plugin-commonjs": "^24.1.0",
+        "@rollup/plugin-json": "^6.0.0",
+        "@rollup/plugin-node-resolve": "^15.0.2",
+        "rollup": "^3.21.5"
+    }
+}
