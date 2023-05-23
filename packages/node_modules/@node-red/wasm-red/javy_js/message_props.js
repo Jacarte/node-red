@@ -1,0 +1,1 @@
+// Implementation of getMessageProperty and setMessageProperty
