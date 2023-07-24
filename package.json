@@ -26,6 +26,7 @@
         }
     ],
     "dependencies": {
+        "10-file": "file:wasm-nodes/sandtrap-file",
         "70-JSON-inWasm": "file:wasm-nodes/70-JSON",
         "acorn": "8.7.1",
         "acorn-walk": "8.2.0",
@@ -57,6 +58,7 @@
         "json-stringify-safe": "5.0.1",
         "jsonata": "1.8.6",
         "lodash.clonedeep": "^4.5.0",
+        "lower-case": "file:wasm-nodes/sandtrap-node-lowercase",
         "media-typer": "1.1.0",
         "memorystore": "1.6.7",
         "mime": "3.0.0",
@@ -76,9 +78,11 @@
         "raw-body": "2.5.1",
         "semver": "7.3.7",
         "tar": "6.1.11",
+        "temp": "^0.9.4",
+        "thermostat": "file:wasm-nodes/sandtrap-themostat",
         "tough-cookie": "4.0.0",
         "uglify-js": "3.16.3",
-        "uuid": "8.3.2",
+        "uuid": "^8.3.2",
         "ws": "7.5.6",
         "xml2js": "0.4.23"
     },
@@ -115,6 +119,8 @@
         "node-red-node-test-helper": "^0.3.0",
         "nodemon": "2.0.19",
         "proxy": "^1.0.2",
+        "rollup-plugin-node-builtins": "^2.1.2",
+        "rollup-plugin-node-globals": "^1.4.0",
         "sass": "1.54.2",
         "should": "13.2.3",
         "sinon": "11.1.2",
