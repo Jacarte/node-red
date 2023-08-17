@@ -1,0 +1,6 @@
+package local:main
+world node-red {
+    export javyprocessmessage: func()
+    export javyregisternode: func()
+    export javyinit: func()
+}
