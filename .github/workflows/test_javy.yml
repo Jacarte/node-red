@@ -1,0 +1,25 @@
+name: Test Javy
+env:
+  ACTIONS_ALLOW_UNSECURE_COMMANDS: true
+on:
+  push:
+    branches: [ master, dev ]
+
+permissions:
+  contents: read
+
+jobs:
+  generate:
+    name: 'Update node-red-docker image'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out node-red repository
+        uses: actions/checkout@v2
+
+      - name: Check Javy
+        run: |
+            cd packages/node_modules/@node-red/wasm-red
+
+            bash download-javy.sh
+
+            ./bin/javy --help
