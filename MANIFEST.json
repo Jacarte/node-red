@@ -1,0 +1,22 @@
+{
+    "70-CSV.js": {
+        "API": {
+            "CAN_OPERATE_COMMANDS": true,
+            "CAN_READ_MSG": true,
+            "CAN_READ_NODE": true,
+            "CAN_READ_CONTEXT": true,
+            "CAN_SEND": true,
+            "CAN_WARN": true,
+            "CAN_DONE": true,
+            "CAN_PUSH_RESULT": true,
+            "CAN_ERROR": true,
+            "CAN_EMIT": true
+        },
+        "PACKAGES": {
+            
+        },
+        "FILE_PERMISSIONS": {
+            "ROOT": "./"
+        }
+    }
+}
