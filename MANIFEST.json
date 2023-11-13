@@ -21,7 +21,15 @@
             "ALLOW_PATH": true
         },
         "FILE_PERMISSIONS": {
-            "ROOT": "./"
+            "ROOT": "./",
+            "READ": {
+                "WHITELIST" : [],
+                "BLACKLIST" : []
+            },
+            "WRITE": {
+                "WHITELIST" : [],
+                "BLACKLIST" : []
+            }
         }
     }
 }
