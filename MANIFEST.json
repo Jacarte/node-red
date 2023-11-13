@@ -13,7 +13,12 @@
             "CAN_EMIT": true
         },
         "PACKAGES": {
-            
+            "ALLOW_FS": true,
+            "ALLOW_HTTP": true,
+            "ALLOW_OS": true,
+            "ALLOW_PROCESS": true,
+            "ALLOW_WASI": true,
+            "ALLOW_PATH": true
         },
         "FILE_PERMISSIONS": {
             "ROOT": "./"

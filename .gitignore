@@ -30,3 +30,11 @@ sync.ffs_db
 *.wrapped.js
 sandtrap-*
 tmp
+tmp_nodes
+*.wrapper.js
+*.inner.js
+*.wasm
+wasm-red.*
+resolve.*
+config.*
+rollup.config-*
